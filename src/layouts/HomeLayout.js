@@ -1,10 +1,11 @@
 import { Box } from "@mui/material";
 import React from "react";
+import TopNavBar from "./common/TopNavBar";
 
 export default function HomeLayout() {
   return (
     <Box>
-      top nav <br />
+     <TopNavBar/>
       slider <br />
       services section <br />
       visit store button <br />
