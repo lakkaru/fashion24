@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavItem from "../../components/topNavBar/NavItem";
+import { Typography } from "@mui/material";
 
 
 
@@ -30,7 +31,7 @@ function TopNavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home"><Typography sx={{fontFamily:'ubuntu', fontWeight:'700', fontSize:'32px', color:'rgb(251, 209, 3)'}}>lak<span style={{color:'#004743'}}>Fashion</span></Typography></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
